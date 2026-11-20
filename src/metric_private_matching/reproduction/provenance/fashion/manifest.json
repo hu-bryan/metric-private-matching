@@ -1,0 +1,403 @@
+{
+  "design": {
+    "D": 784,
+    "K": 50,
+    "blocks": 4,
+    "calibration": "exact saved OPT/RAND; report nonvacuity at the requested budget without requiring it at every dimension",
+    "chains": 5,
+    "dimensions": [
+      784,
+      604,
+      404,
+      304,
+      254,
+      204,
+      199,
+      194,
+      189,
+      184,
+      179,
+      174,
+      169,
+      164,
+      159,
+      154,
+      149,
+      144,
+      139,
+      134,
+      129,
+      124,
+      119,
+      114,
+      109,
+      104,
+      99,
+      94,
+      89,
+      84,
+      79,
+      74,
+      69,
+      64,
+      59,
+      54,
+      49,
+      44,
+      39,
+      34,
+      29,
+      24,
+      19,
+      14,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "display_max_dimension": 104,
+    "epsilon": 16.0,
+    "geometry_reference": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/fashion_dimension_v1/production/f9ff7281c5575e912d29b9af",
+    "hardware_constraint": "genoa",
+    "inference": "noise -> partitions -> chains -> twenty parent means; pointwise Student-t95%",
+    "n": 800,
+    "namespace": "fashion-normalized-full-haar-dimension-20261114-v1",
+    "normalize_projection": true,
+    "parents": 20,
+    "partitions": 5,
+    "phase": "production",
+    "privacy_metric": "sum-record Euclidean in each fixed RMS-one projected space; offline benchmark construction",
+    "projection": "full 784x784 positive-diagonal Gaussian QR Haar flags; nested prefixes, equivalent to successive independent orthogonal reductions",
+    "reuse": "identical epsilon-8 raw masters, transforms, partitions and full Haar flags; same per-instance unit-noise seeds explicitly coupled across budgets; all epsilon-16 assignments newly solved",
+    "sampling": "1600 distinct archived Fashion-MNIST source rows per parent; five saved disjoint 800/800 partitions",
+    "scaling": "each pooled projected cloud centered and divided by its actual RMS; intermediate scalar rescalings cancel at next RMS normalization"
+  },
+  "fingerprint": "90084c724cc884c623909224",
+  "kind": "fashion_dimension_epsilon16_v1",
+  "reference_manifest_sha256": "f1e6e8347d3d7bc47573252d01efd861f149d16d08ccf56fef4fa9339f897eb1",
+  "source": {
+    "0": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent00.npz",
+      "sha256": "9dd43276bcd70e4660bb9b01a715f1528477d131c4f04bee0b76b43415fc703b"
+    },
+    "1": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent01.npz",
+      "sha256": "ac9516070d7bfc9243600330f5740e3239c72f34f2ae5612f64dddc51c0be2bf"
+    },
+    "10": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent10.npz",
+      "sha256": "ae933e58ba3dc3f65be8fa88cd15722ea7485d770ab64386e80d7570ca96f3b0"
+    },
+    "11": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent11.npz",
+      "sha256": "92b838c19647741ec4bd5df77d24545ef30ddab64725f21759a9d683a4af7fe0"
+    },
+    "12": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent12.npz",
+      "sha256": "b9bac1171dde7cde2faaffda758f65cf4c3219ce883af46521a5b182af4e7cca"
+    },
+    "13": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent13.npz",
+      "sha256": "1625d0dd744945ce6ba77ec12decaef31adc3f81b5031d9c8097e315ad87a1c6"
+    },
+    "14": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent14.npz",
+      "sha256": "ae3e06c07972e13d71fbd853544ee813d6486ca65b902f08c1c65338f1cb2a2b"
+    },
+    "15": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent15.npz",
+      "sha256": "1522dac17e2688a96040f8ca2e9f5f614ce7a3f4813302d17846e95c7411e18d"
+    },
+    "16": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent16.npz",
+      "sha256": "b989de46ad43558c411150aa6da32258666d729bd864c73a786396ec9974517b"
+    },
+    "17": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent17.npz",
+      "sha256": "06ce182e31493f719faf1ce30e3cacdf48754c5df3dd202feb94fbd23a376989"
+    },
+    "18": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent18.npz",
+      "sha256": "4e41da3d224e297a7c23ce42dfbcef51a8b84191eb798b11584f247d9324787e"
+    },
+    "19": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent19.npz",
+      "sha256": "865dbbce5f4dd4e55bca167d65c740fd564fa604f7fad70000325b4224e033ba"
+    },
+    "2": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent02.npz",
+      "sha256": "bc2daa331e628347bc77aee0dbe058447ff383d801c40e6fef4265c36a657901"
+    },
+    "3": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent03.npz",
+      "sha256": "f4dcc9acf929a2b6985c28aefc0ff54e594c1ea74ccbf6bbd830272153939e0f"
+    },
+    "4": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent04.npz",
+      "sha256": "91eb9c17cd64389469dc478a7cef15085b63501e170698b05a2cc5ff3bc8aec8"
+    },
+    "5": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent05.npz",
+      "sha256": "814d65b454f7c806ad463c682bf8ed1ae971ac445f63a93c6f701a8ed3238887"
+    },
+    "6": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent06.npz",
+      "sha256": "8d4de18265d134b1490d93c4d5f64e9a9efe8bd10b868c064b78c4a42ff38466"
+    },
+    "7": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent07.npz",
+      "sha256": "3edc022161a1903975baae0aad6bcf187baacc52ebcc04656b3007188bb27642"
+    },
+    "8": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent08.npz",
+      "sha256": "e8f497a7edd942bb8c6e2e455385e9df1a2a568ed0f09769e05d5929839e870e"
+    },
+    "9": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent09.npz",
+      "sha256": "a8ea200659b90531049d8a80190228fa8ff6d70326290540ecd086fc6abab603"
+    }
+  },
+  "source_sha256": {
+    "__init__.py": "c96f65c1ea29d4e4af0c1fd7acbf17b837a798a909b53b8e090242328309430c",
+    "__main__.py": "b11381a581512227cc796395350aabb756796c7d210122bc28b7764ba640acb5",
+    "aggregate.py": "a8d28c06b0bca6dc88e4f09f120319642186a6854b27499d66888c32b587ef77",
+    "analysis_table.py": "fc78767372a912906435869d99ede93854e2107bff1e1e4b6d408f30e3202ad9",
+    "anchor.py": "e33e8e251419a1518b32899224311dac9e9bed8339cdfd801f6790b7d2ea9dca",
+    "assignment.py": "1694fe8ae29f6e7e2a21daab3a3bd4d88dec425042933894d78a73b1c550842c",
+    "bounds.py": "d1e6096b2e08d00944d743f6d0febf2094c0654eaa24c449931ce34ae63b8cc1",
+    "causal_ihdp.py": "f4d77997c9a5a6a88d8223653e0238c64ddeb30979e8f78c534bae5a75b6c827",
+    "causal_ihdp_report.py": "7f4d27b46f7a6a8d49b091a33b9fb6bd45759d96e7b79b89ce9e2c48ff606845",
+    "cli.py": "6c86dd4cc7f301b6d1eff8e0e45dd732ce31f6023662da2ed07727eae29f55be",
+    "clustering_benchmark.py": "3d817f3f91636dffbb3f289739d22b9ae3ad3474682d9c2d4e05b7584e75c7b3",
+    "clustering_benchmark_report.py": "de6a02bb7c618a21e43a7b183b504453f2612a87ee1932af7614d746e6527195",
+    "clustering_extension.py": "9320d8e7f28fc92534cf31c5f97987b06726c8743f4e153ce1667f2b88a52d46",
+    "clustering_extension_report.py": "d907cd86a15563d085172072d2156ead6ad76ca67f8fddfd63982dfd769ef950",
+    "clustering_manuscript.py": "aef282df1e9a4409406cfc681e6dc9f787dae5d1ce9548530290cf87d0c69343",
+    "clustering_manuscript_report.py": "bd8d29057a8684bc5b0cdbb4e7be5dec5dfabb88a18133aefc66043258ab7e5f",
+    "clustering_normalized.py": "abe428338baeadfd963773592cca241f10691a1a7996db81ab97b378540c4a60",
+    "clustering_normalized_report.py": "aa7dfc25c3cda9601e3b283a93642ebc11e1c7f9695c44f022b4300708e84505",
+    "config.py": "f563743d0d9350b022ecd7d62fa8fc86c36b9abbd943b00f81912d276ca7f7e7",
+    "continuous_decoder.py": "c50d8abdc69ad17c8c3673fc8029f64db8c52f7ee1ce8b54e96a6ec9ec1cc86a",
+    "continuous_decoder_plots.py": "d640a8969785fddf19346a40579310462e63f744136bec5f36f746a7651664ec",
+    "controlled_sweeps.py": "f949591123cbb3e872f8135939a233396e88c6454ae1006a9cee6da9b94162f8",
+    "controlled_sweeps_report.py": "b8c1c09bb7b39aed9981157806a24fbe7c8127bf61f7a26bd0c36742af20b389",
+    "corrected_projection.py": "abd7a9103f2fd80de0d8013c23c7540e2e359ff2d58a87d740624b687ca63fe7",
+    "corrected_projection_benchmark.py": "909caddf0d1aecf8f4d66d55c363de80fe1912a0ee1c7b2102edfc213e293cc4",
+    "corrected_projection_report.py": "7224ffa359752df80eebafad0c47d83690f4a94cc4711cfd114fad8d3be1d1db",
+    "cube_plots.py": "59d73bf59e5f44f2140fc4df50548fa25edfc706883f4dade197032a3c2533d2",
+    "execution.py": "26e87f8f61546d67d8e2dfc5ab216baa5803daae1990b29264fefa0e6fbe2bba",
+    "fashion_dimension.py": "55a060f6f7450ab006d4cfc1eb9eecfc8267daf225b79a26e5937ac0f2ba85b6",
+    "fashion_dimension_report.py": "33f28515fae84510b808733dfe7e42c326fe63ff9ffd64e276b1eab8b3570cc7",
+    "folding.py": "653e819e6178c74ef0d18627a12d3084bc31b4fce366b1d4c293197bb4c96c3a",
+    "followup.py": "fb54730e5655e459642cf6aed9e18eeda7871d40b7ccc708254c4df4cd4602a8",
+    "followup_plotting.py": "a634ed5a47b8fdf649f1f41ee751eded4facf8cb9f6470f1a576359bc241f785",
+    "instances.py": "f8e1a6c639d53d907020f73d0b681a0462af5c6b472cd5a58800a244b116f654",
+    "integral_adaptive.py": "305e36527a5f81fb596671e4ccca9fee5df24f152e8d917098bc843b8d9211d7",
+    "integral_adaptive_study.py": "7c1988f2412b6e0e1f14fa46c6d9b4d3e9e0668c57d20519479f1f5fa1bcd86d",
+    "integral_mechanisms.py": "98bb84f9c06be61459e5b67325209e0d91912dae0e1100c3dcf288375b809c95",
+    "integral_report.py": "b9b0c7ac4c3f99310d237d3113a37a5c31fe5ef9ce3a6c6f862e0215ef274f51",
+    "integral_study.py": "4251362eec480450f03bc300efaf57bcddf7acc9ece5829183fea0710f9c56e7",
+    "interchangeability_plots.py": "6e4e8c07c3178a29f5ebbbd4d0e665af59d6b8a4fcbce3b17e34b02117ccad1a",
+    "interval_matching.py": "512c4ae03b9fa2d2441e7322e63eb090bdc5cb06bb03cf328ad7e0fe4a9d547c",
+    "login_guard.py": "cc9fe7294dfc817eba11133df7f5deb99cad3330c8e0d8a1839ca3464946d68a",
+    "lower_bound_plots.py": "d6f7c395fb099d33a5b1373f6103990e89bc93bc98b6e56d92ae7637646cecbc",
+    "manifest.py": "dad4c204e46e7943631b76215106767a8670793414ad8a374018bf249b26f85a",
+    "mechanisms.py": "d51ce02c682e9bac3c6ec1379d6483f0d14f7688f8ba3f1df0742892d1a1ecfa",
+    "mnist_random_projection.py": "a23729f1b334f9aefaffa63c98ff249873b95bf974167f149edc2025c868ca1c",
+    "mnist_random_projection_report.py": "5f457ebda59feeff14e0dc239aa5f3eb4b773c7264bd00bc09ea9aa6bb128ed2",
+    "plotting.py": "d773ad3b6557512e12fc70cbc2096dcb3f95248692e2142c4c35a45d0b0e9652",
+    "projection_plots.py": "20bc9d05d493397a95e9e7464f570f514095e2790b36512e5f2ed3268d389492",
+    "proxies.py": "91d4caadebeec149c9f558540e2fc129733b3903eecfb2d1095e71d932cd5677",
+    "results.py": "8dc52258a68363e869072e6138f1969c9d52bfb11d7b967e5d87e96066678333",
+    "robust_fitted.py": "e9ea2eb5361e8b70b1c6d44d30be23cf315b450ba65e5fd04465079460964b57",
+    "robust_fitted_plots.py": "f7803e7aeb7cae698265a639a999fe1ac44899b93b879e418d8f0dd09939af99",
+    "seeds.py": "2447e0bf6cd91e42efaa5934da6f03095b6a2275b0ce47453baf836f97a6fd93",
+    "simulation.py": "238a7cb05707d536a39ca392e0fb8def82559d5bbdeaddf0997f9e6ff63eaf6c",
+    "sonar_rank.py": "bbf13a2fb5db1550e2557c145fb09b47aac2656f33f5e450d5117ce57712ca68",
+    "sonar_rank_report.py": "b4bf6a201c6fd521d65f033f1e7fac8a0328afc6436bb9ffaa2861136f108aed",
+    "span_anchor.py": "e133450ec783d47fd73ecfca03ebdeaa2b1e8d283a9f4836d7fff6a252c711c3",
+    "study.py": "1dff46fd9e2a93b08a66195dbc7f0423fb5d096e1972235bcf3ff97b00e389a3",
+    "study_geometry.py": "ef25ec9eb7b7d4dc90fdb3df932a8825bf00be3b82f59d18e5af6fbf86a00aed",
+    "table_dictionary.py": "372e6fcd04defe7d25c854a5072e73ddcd2240273058331b86d439f132203ce1",
+    "thread_limits.py": "9fff3edbb38a6a7ab3fbaa76ffa6b82f40c6994750aaad37a3e79db037b41264"
+  },
+  "versions": {
+    "libc": [
+      "glibc",
+      "2.34"
+    ],
+    "machine": "x86_64",
+    "matplotlib": "3.11.1",
+    "numerical_binary_sha256": {
+      "numpy._core._multiarray_umath": "ceec5ba13ab88318632307fdd2df74f317fa293ce77be559c4298ddd1f4306b0",
+      "numpy.linalg._umath_linalg": "19d024507f73b42889baeb00f9da0004e33a42ed7a78fd77662fd6236e930d78",
+      "scipy.optimize._lsap": "67871ca804df8da4fadf4e9238ea0536d92ff0915ddae885b368c65ce43e5b3f"
+    },
+    "numerical_threads": 1,
+    "numpy": "2.5.3",
+    "numpy_build_configuration": {
+      "Build Dependencies": {
+        "blas": {
+          "detection method": "pkgconfig",
+          "found": true,
+          "include directory": "/opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/include",
+          "lib directory": "/opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/lib",
+          "name": "scipy-openblas",
+          "openblas configuration": "OpenBLAS 0.3.34.106.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=64",
+          "pc file directory": "/project/.openblas",
+          "version": "0.3.34.106.0"
+        },
+        "lapack": {
+          "detection method": "pkgconfig",
+          "found": true,
+          "include directory": "/opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/include",
+          "lib directory": "/opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/lib",
+          "name": "scipy-openblas",
+          "openblas configuration": "OpenBLAS 0.3.34.106.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=64",
+          "pc file directory": "/project/.openblas",
+          "version": "0.3.34.106.0"
+        }
+      },
+      "Compilers": {
+        "c": {
+          "commands": "cc",
+          "linker": "ld.bfd",
+          "name": "gcc",
+          "version": "14.2.1"
+        },
+        "c++": {
+          "commands": "c++",
+          "linker": "ld.bfd",
+          "name": "gcc",
+          "version": "14.2.1"
+        },
+        "cython": {
+          "commands": "cython",
+          "linker": "cython",
+          "name": "cython",
+          "version": "3.3.0"
+        }
+      },
+      "Machine Information": {
+        "build": {
+          "cpu": "x86_64",
+          "endian": "little",
+          "family": "x86_64",
+          "system": "linux"
+        },
+        "host": {
+          "cpu": "x86_64",
+          "endian": "little",
+          "family": "x86_64",
+          "system": "linux"
+        }
+      },
+      "Python Information": {
+        "path": "/tmp/build-env-kabtnrrv/bin/python",
+        "version": "3.12"
+      },
+      "SIMD Extensions": {
+        "baseline": [
+          "X86_V2"
+        ],
+        "found": [
+          "X86_V3",
+          "X86_V4",
+          "AVX512_ICL"
+        ],
+        "not found": [
+          "AVX512_SPR"
+        ]
+      }
+    },
+    "numpy_cpu_features": {
+      "ASIMD": false,
+      "ASIMDDP": false,
+      "ASIMDFHM": false,
+      "ASIMDHP": false,
+      "AVX": true,
+      "AVX2": true,
+      "AVX5124FMAPS": false,
+      "AVX5124VNNIW": false,
+      "AVX512BF16": true,
+      "AVX512BITALG": true,
+      "AVX512BW": true,
+      "AVX512CD": true,
+      "AVX512DQ": true,
+      "AVX512ER": false,
+      "AVX512F": true,
+      "AVX512FP16": false,
+      "AVX512IFMA": true,
+      "AVX512PF": false,
+      "AVX512VBMI": true,
+      "AVX512VBMI2": true,
+      "AVX512VL": true,
+      "AVX512VNNI": true,
+      "AVX512VPOPCNTDQ": true,
+      "AVX512_CLX": true,
+      "AVX512_CNL": true,
+      "AVX512_ICL": true,
+      "AVX512_KNL": false,
+      "AVX512_KNM": false,
+      "AVX512_SKX": true,
+      "AVX512_SPR": false,
+      "BMI": true,
+      "BMI2": true,
+      "CX16": true,
+      "F16C": true,
+      "FMA3": true,
+      "FMA4": false,
+      "FPHP": false,
+      "GFNI": true,
+      "LAHF": true,
+      "LSX": false,
+      "LZCNT": true,
+      "MMX": true,
+      "MOVBE": true,
+      "NEON": false,
+      "NEON_FP16": false,
+      "NEON_VFPV4": false,
+      "POPCNT": true,
+      "RVV": false,
+      "SSE": true,
+      "SSE2": true,
+      "SSE3": true,
+      "SSE41": true,
+      "SSE42": true,
+      "SSSE3": true,
+      "SVE": false,
+      "VAES": true,
+      "VPCLMULQDQ": true,
+      "VSX": false,
+      "VSX2": false,
+      "VSX3": false,
+      "VSX4": false,
+      "VX": false,
+      "VXE": false,
+      "VXE2": false,
+      "X86_V2": true,
+      "X86_V3": true,
+      "X86_V4": true,
+      "XOP": false
+    },
+    "pandas": "3.0.5",
+    "pytest": "9.1.1",
+    "python": "3.12.13",
+    "scipy": "1.18.1",
+    "system": "Linux",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  }
+}

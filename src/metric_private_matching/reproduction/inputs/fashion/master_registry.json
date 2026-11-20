@@ -1,0 +1,162 @@
+{
+  "0": {
+    "file": "masters/parent00.npz",
+    "sha256": "a27c4793a2e3faf744c7ff852c22c88178d4a4efeeeac50abdb972b12837d2b5",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent00.npz",
+      "sha256": "9dd43276bcd70e4660bb9b01a715f1528477d131c4f04bee0b76b43415fc703b"
+    }
+  },
+  "1": {
+    "file": "masters/parent01.npz",
+    "sha256": "e3cb7638f9a4268ad70c659e2368409e56576de7f964c8c98a4c7ef4a1f9baee",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent01.npz",
+      "sha256": "ac9516070d7bfc9243600330f5740e3239c72f34f2ae5612f64dddc51c0be2bf"
+    }
+  },
+  "10": {
+    "file": "masters/parent10.npz",
+    "sha256": "e62c84c2d2852d22d976ebfd99bd32aa2801ef57de6c33ff5e591a8e9932a10c",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent10.npz",
+      "sha256": "ae933e58ba3dc3f65be8fa88cd15722ea7485d770ab64386e80d7570ca96f3b0"
+    }
+  },
+  "11": {
+    "file": "masters/parent11.npz",
+    "sha256": "bf376c6cb20d3c4bb9cc34e28faafd8cf0a81f61ef4056804edc262356e7389b",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent11.npz",
+      "sha256": "92b838c19647741ec4bd5df77d24545ef30ddab64725f21759a9d683a4af7fe0"
+    }
+  },
+  "12": {
+    "file": "masters/parent12.npz",
+    "sha256": "e902a8c4f992ecd09129a9992ae824b63ae3a6a3bbeeaafa84b93dd9ea82fc8e",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent12.npz",
+      "sha256": "b9bac1171dde7cde2faaffda758f65cf4c3219ce883af46521a5b182af4e7cca"
+    }
+  },
+  "13": {
+    "file": "masters/parent13.npz",
+    "sha256": "95cf2ad0b398f5866d4d1e19323f5613e147914448cc7b4c89a5c8014d7553a1",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent13.npz",
+      "sha256": "1625d0dd744945ce6ba77ec12decaef31adc3f81b5031d9c8097e315ad87a1c6"
+    }
+  },
+  "14": {
+    "file": "masters/parent14.npz",
+    "sha256": "504109aa1ae50599be4b1aa901d7bdc0b2a2e7b3ddcb429e06c1cafde022aa8f",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent14.npz",
+      "sha256": "ae3e06c07972e13d71fbd853544ee813d6486ca65b902f08c1c65338f1cb2a2b"
+    }
+  },
+  "15": {
+    "file": "masters/parent15.npz",
+    "sha256": "4b7fc50a2ef4fd5c17c7032cde4b541879292368bf8b5d664aabfe2e6027a480",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent15.npz",
+      "sha256": "1522dac17e2688a96040f8ca2e9f5f614ce7a3f4813302d17846e95c7411e18d"
+    }
+  },
+  "16": {
+    "file": "masters/parent16.npz",
+    "sha256": "cda3f14e053eb7b4707b80c8970768739fce3521c3d2c49deb36ab30e65f21be",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent16.npz",
+      "sha256": "b989de46ad43558c411150aa6da32258666d729bd864c73a786396ec9974517b"
+    }
+  },
+  "17": {
+    "file": "masters/parent17.npz",
+    "sha256": "6d16e3e0163feaaf0ee651a13469cd2c2f76319d7b5dde9358ac07b55edd94e3",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent17.npz",
+      "sha256": "06ce182e31493f719faf1ce30e3cacdf48754c5df3dd202feb94fbd23a376989"
+    }
+  },
+  "18": {
+    "file": "masters/parent18.npz",
+    "sha256": "4ab061db8a500766389b28fdadf995f4998716b065c1550d294b2db96e6aa24f",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent18.npz",
+      "sha256": "4e41da3d224e297a7c23ce42dfbcef51a8b84191eb798b11584f247d9324787e"
+    }
+  },
+  "19": {
+    "file": "masters/parent19.npz",
+    "sha256": "4f660b9257209fc5bf03debb465099318a65ceebd959638a14fbce5cdddd69bc",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent19.npz",
+      "sha256": "865dbbce5f4dd4e55bca167d65c740fd564fa604f7fad70000325b4224e033ba"
+    }
+  },
+  "2": {
+    "file": "masters/parent02.npz",
+    "sha256": "b39b7f0a5feaa3fb9dd7a57065011b29cadef6345fe6a657fe47c6e4c75b5c08",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent02.npz",
+      "sha256": "bc2daa331e628347bc77aee0dbe058447ff383d801c40e6fef4265c36a657901"
+    }
+  },
+  "3": {
+    "file": "masters/parent03.npz",
+    "sha256": "09dc27b840daf4e88909a62b2dcd8cc9406e870a5b0ddcd36572e9470ca8f83e",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent03.npz",
+      "sha256": "f4dcc9acf929a2b6985c28aefc0ff54e594c1ea74ccbf6bbd830272153939e0f"
+    }
+  },
+  "4": {
+    "file": "masters/parent04.npz",
+    "sha256": "6b04240b39bcb79b7962323893bc5efb16c398152bf51624e2f75d45696f4dbd",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent04.npz",
+      "sha256": "91eb9c17cd64389469dc478a7cef15085b63501e170698b05a2cc5ff3bc8aec8"
+    }
+  },
+  "5": {
+    "file": "masters/parent05.npz",
+    "sha256": "4b283b009fa52af2fe77ef030fb340eda0af5baf420b54af55cd7bc5663d60f9",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent05.npz",
+      "sha256": "814d65b454f7c806ad463c682bf8ed1ae971ac445f63a93c6f701a8ed3238887"
+    }
+  },
+  "6": {
+    "file": "masters/parent06.npz",
+    "sha256": "18fe2076c4757d0f468fb419d37e553b1368ba7d62b4480ae1b4568997dd1012",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent06.npz",
+      "sha256": "8d4de18265d134b1490d93c4d5f64e9a9efe8bd10b868c064b78c4a42ff38466"
+    }
+  },
+  "7": {
+    "file": "masters/parent07.npz",
+    "sha256": "3169c1e3b27b06997d134f0fd7c581886066dc35855c9d2a7054ca0fae4c8f53",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent07.npz",
+      "sha256": "3edc022161a1903975baae0aad6bcf187baacc52ebcc04656b3007188bb27642"
+    }
+  },
+  "8": {
+    "file": "masters/parent08.npz",
+    "sha256": "86cde63115e973e6a9ecc8cf07986851654847b72daafdeef2a0096677643834",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent08.npz",
+      "sha256": "e8f497a7edd942bb8c6e2e455385e9df1a2a568ed0f09769e05d5929839e870e"
+    }
+  },
+  "9": {
+    "file": "masters/parent09.npz",
+    "sha256": "f0b2966f75e409bb6353e368238c9dc72aaa2ab41a1a65f5de4c6f2fea7cc8b4",
+    "source": {
+      "file": "/ix1/arahimian/brh314/metric_private_covariate_matching/results/internal_projection_bound_search_20261114/validation/mnist_fashion10k_n800/parent09.npz",
+      "sha256": "a8ea200659b90531049d8a80190228fa8ff6d70326290540ecd086fc6abab603"
+    }
+  }
+}

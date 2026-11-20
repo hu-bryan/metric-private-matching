@@ -1,0 +1,23 @@
+{
+  "compact_prepared_input_bytes": 8217369,
+  "experiments_rerun": false,
+  "fashion_masters_representation": "Exact source IDs and transformation scalars; all restored arrays hash-verified",
+  "original_full_prepared_input_bytes": 134178467,
+  "production_fingerprints": {
+    "euclidean": "26612223b86b05d1a5cf1ff9",
+    "fashion": "90084c724cc884c623909224",
+    "sonar": "7c948ec520176c0d5924a3ba",
+    "squared": "2ab7cd89a9ee93f0350e3ded"
+  },
+  "raw_dataset_bytes": 27605294,
+  "reference_figures": [
+    "numerical_bars_compact.pdf",
+    "numerical_dimension_and_size.pdf",
+    "sonar_mean_pvalue.pdf",
+    "privacy_swap_calibration.pdf",
+    "numerical_epsilon_p1_1.pdf",
+    "numerical_epsilon_p1_2.pdf",
+    "numerical_epsilon_p2_1.pdf",
+    "numerical_epsilon_p2_2.pdf"
+  ]
+}

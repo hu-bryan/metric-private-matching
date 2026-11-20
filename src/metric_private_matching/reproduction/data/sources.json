@@ -1,0 +1,248 @@
+[
+  {
+    "bytes": 14024,
+    "dataset": "fcps/chainlink",
+    "path": "data/raw/fcps/chainlink.data.gz",
+    "sha256": "0aedc50b5a3925c886f05373b1c35d69dabc43c696f7d7f6fe4ce4430bb2a7fa",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/fcps/chainlink.data.gz"
+  },
+  {
+    "bytes": 62,
+    "dataset": "fcps/chainlink",
+    "path": "data/raw/fcps/chainlink.labels0.gz",
+    "sha256": "2fd5f809acf8729df17f211ff17f81000d67a2603306111ff80434a448930a3a",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/fcps/chainlink.labels0.gz"
+  },
+  {
+    "bytes": 14845,
+    "dataset": "graves/ring_noisy",
+    "path": "data/raw/graves/ring_noisy.data.gz",
+    "sha256": "3360f10f3c624e53f9d1b4d097e7f9cb3e5311aa4b726f78a966b9c65f7a7b4f",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/graves/ring_noisy.data.gz"
+  },
+  {
+    "bytes": 81,
+    "dataset": "graves/ring_noisy",
+    "path": "data/raw/graves/ring_noisy.labels0.gz",
+    "sha256": "bc09894e413f88ee50d6e01a818296a1fb7f6a0e3c7010c2bb9a7db67197a6b1",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/graves/ring_noisy.labels0.gz"
+  },
+  {
+    "bytes": 2202475,
+    "dataset": "mnist/digits10k",
+    "path": "data/raw/mnist/digits10k.data.gz",
+    "sha256": "36c38e2c261b8ec147c38c18de64e2717bad8932f19c4d6701f2dc2d24affb75",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/mnist/digits10k.data.gz"
+  },
+  {
+    "bytes": 5403,
+    "dataset": "mnist/digits10k",
+    "path": "data/raw/mnist/digits10k.labels0.gz",
+    "sha256": "4558f8bbe6eac9d47ea0a8e576a2e4d97684d2c4d208c44ba47db6274cf72657",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/mnist/digits10k.labels0.gz"
+  },
+  {
+    "bytes": 5673641,
+    "dataset": "mnist/fashion10k",
+    "path": "data/raw/mnist/fashion10k.data.gz",
+    "sha256": "5c8856e1d045fc240e773dbb51fa9f7050fec19694ecd502f137868b6001408e",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/mnist/fashion10k.data.gz"
+  },
+  {
+    "bytes": 6070,
+    "dataset": "mnist/fashion10k",
+    "path": "data/raw/mnist/fashion10k.labels0.gz",
+    "sha256": "c71cd40513b40394aff8f85f7ab0bc747d02a5122148cf375b134c2062dcb555",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/mnist/fashion10k.labels0.gz"
+  },
+  {
+    "bytes": 691,
+    "dataset": "other/iris",
+    "path": "data/raw/other/iris.data.gz",
+    "sha256": "5a4b82f7367b2957e7ac43366338e981b012dbf5c7bd6aaab8c0fe5623d1b976",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/other/iris.data.gz"
+  },
+  {
+    "bytes": 43,
+    "dataset": "other/iris",
+    "path": "data/raw/other/iris.labels0.gz",
+    "sha256": "1f6d0d84bb2a111320c116ec8039585e1fa1820d1d9fa3dd9a4853226f67c8f8",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/other/iris.labels0.gz"
+  },
+  {
+    "bytes": 19241126,
+    "dataset": "sipu/worms_64",
+    "path": "data/raw/sipu/worms_64.data.gz",
+    "sha256": "eac901e683102e51799d8fb52f00a9578064671cd802fb427ed269b5150b0746",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/sipu/worms_64.data.gz"
+  },
+  {
+    "bytes": 369,
+    "dataset": "sipu/worms_64",
+    "path": "data/raw/sipu/worms_64.labels0.gz",
+    "sha256": "edd71668aed293e88027fd1f090eb930607371cc33afcf9a8cd1f3911ad96f8f",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/sipu/worms_64.labels0.gz"
+  },
+  {
+    "bytes": 46400,
+    "dataset": "uci/banknote",
+    "path": "data/raw/uci/data_banknote_authentication.txt",
+    "sha256": "d0539aaed2139ba7a587b3e34fb345ce503ff7d5d33dbf9912d8e195ce425cb9",
+    "url": "https://archive.ics.uci.edu/static/public/267/banknote+authentication.zip",
+    "zip_member": "data_banknote_authentication.txt"
+  },
+  {
+    "bytes": 2490,
+    "dataset": "uci/ecoli",
+    "path": "data/raw/uci/ecoli.data.gz",
+    "sha256": "0103bfee45abb6646e5845a133dcfa83a0cc79502756f13713de197ac8cbafe6",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/ecoli.data.gz"
+  },
+  {
+    "bytes": 60,
+    "dataset": "uci/ecoli",
+    "path": "data/raw/uci/ecoli.labels0.gz",
+    "sha256": "b356c4db317c0dabb7a3bb240a05427d61fc28e0c5e8ed23e9019a5e18227a88",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/ecoli.labels0.gz"
+  },
+  {
+    "bytes": 3182,
+    "dataset": "uci/glass",
+    "path": "data/raw/uci/glass.data.gz",
+    "sha256": "c0ad4bf34bb5ccf978ec48aec49d2983bcc259ac4b2b5ad00ade8c41888d7c87",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/glass.data.gz"
+  },
+  {
+    "bytes": 53,
+    "dataset": "uci/glass",
+    "path": "data/raw/uci/glass.labels0.gz",
+    "sha256": "492b7325e8866ae0fca50d4b535016e4716792878571089ad0da2ba081d46ea0",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/glass.labels0.gz"
+  },
+  {
+    "bytes": 27649,
+    "dataset": "uci/ionosphere",
+    "path": "data/raw/uci/ionosphere.data.gz",
+    "sha256": "b5680b0c848358c13f08a7f050020b8076139dd34bf58164e2e31e2cbb269304",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/ionosphere.data.gz"
+  },
+  {
+    "bytes": 53,
+    "dataset": "uci/ionosphere",
+    "path": "data/raw/uci/ionosphere.labels0.gz",
+    "sha256": "78306c884a9f912b1797122ebe2bfc5e847293595b03717eb6beb890c15f5429",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/ionosphere.labels0.gz"
+  },
+  {
+    "bytes": 28408,
+    "dataset": "uci/sonar",
+    "path": "data/raw/uci/sonar.data.gz",
+    "sha256": "e07c7aca470427c6d8fc1b8aff5acabafc1bd41d7f4a49bbd745ef5fe015b848",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/sonar.data.gz"
+  },
+  {
+    "bytes": 42,
+    "dataset": "uci/sonar",
+    "path": "data/raw/uci/sonar.labels0.gz",
+    "sha256": "4d461338e403d95a54146dbb4f09c0c445b9357292eee23585b02a262a189fe1",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/sonar.labels0.gz"
+  },
+  {
+    "bytes": 111800,
+    "dataset": "uci/statlog",
+    "path": "data/raw/uci/statlog.data.gz",
+    "sha256": "ad481e152762240977a5d58965823fce9eb32e737d82968900fc6ab6db72b293",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/statlog.data.gz"
+  },
+  {
+    "bytes": 1289,
+    "dataset": "uci/statlog",
+    "path": "data/raw/uci/statlog.labels0.gz",
+    "sha256": "c034e9b47eb22876b3067707e865f009946ca9a00019d0c7815914029d1a8c26",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/statlog.labels0.gz"
+  },
+  {
+    "bytes": 46543,
+    "dataset": "uci/wdbc",
+    "path": "data/raw/uci/wdbc.data.gz",
+    "sha256": "e327a43e8cf472005e2fc7a2a01e9cdb3c123946db55c04587a528ea2ad1e1d8",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/wdbc.data.gz"
+  },
+  {
+    "bytes": 169,
+    "dataset": "uci/wdbc",
+    "path": "data/raw/uci/wdbc.labels0.gz",
+    "sha256": "18acf2fd9a74c5c642c953f6f295706ef6161c53da02f92023db023eeea2239a",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/wdbc.labels0.gz"
+  },
+  {
+    "bytes": 4088,
+    "dataset": "uci/wine",
+    "path": "data/raw/uci/wine.data.gz",
+    "sha256": "2a70ae86d6460d977e46cced71c9b40c60bba6b1fcc0afb372b8dbfa9f67a68d",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/wine.data.gz"
+  },
+  {
+    "bytes": 44,
+    "dataset": "uci/wine",
+    "path": "data/raw/uci/wine.labels0.gz",
+    "sha256": "938ab351ff32ff95fdd6bcea7ec91a3589efd9c39804ce74eb02656d778d2ce0",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/wine.labels0.gz"
+  },
+  {
+    "bytes": 11851,
+    "dataset": "uci/yeast",
+    "path": "data/raw/uci/yeast.data.gz",
+    "sha256": "11f58a5f199184b3e0ec71b880365df360c6db365823c3d42a006d198f08acd9",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/yeast.data.gz"
+  },
+  {
+    "bytes": 679,
+    "dataset": "uci/yeast",
+    "path": "data/raw/uci/yeast.labels0.gz",
+    "sha256": "928ba1f1d2b3049ce36aa55f09eccaae660452b6a5bc1d820bb91a865a56d1fa",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/yeast.labels0.gz"
+  },
+  {
+    "bytes": 67346,
+    "dataset": "wut/circles",
+    "path": "data/raw/wut/circles.data.gz",
+    "sha256": "4e416068cca223d82f14b11ce1fd31608ffe41b97f5284579abc5e68923b7049",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/wut/circles.data.gz"
+  },
+  {
+    "bytes": 76,
+    "dataset": "wut/circles",
+    "path": "data/raw/wut/circles.labels0.gz",
+    "sha256": "b0b600873fc75d56e64b1b74c3ae7071489248110e96baf6d285c0c248e12163",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/wut/circles.labels0.gz"
+  },
+  {
+    "bytes": 28408,
+    "dataset": "sonar rank test",
+    "path": "data/sonar/sonar.data.gz",
+    "sha256": "e07c7aca470427c6d8fc1b8aff5acabafc1bd41d7f4a49bbd745ef5fe015b848",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/sonar.data.gz"
+  },
+  {
+    "bytes": 42,
+    "dataset": "sonar rank test",
+    "path": "data/sonar/sonar.labels0.gz",
+    "sha256": "4d461338e403d95a54146dbb4f09c0c445b9357292eee23585b02a262a189fe1",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/sonar.labels0.gz"
+  },
+  {
+    "bytes": 379,
+    "dataset": "sonar rank test",
+    "path": "data/sonar/sonar.txt",
+    "sha256": "5e6f07d74711f607316b5d3bebb9315a828760c2e3b8b22a9a2971fb3e7f42b6",
+    "url": "https://raw.githubusercontent.com/gagolews/clustering-data-v1/4199c2fb21e39bab604106f8589480e0ed758df6/uci/sonar.txt"
+  },
+  {
+    "bytes": 65413,
+    "dataset": "sonar rank test",
+    "path": "data/sonar/uci_original.zip",
+    "sha256": "088b0b6813fb5ab84736bc2a1e3d6bb886e317520d2f2c04152e2ed65af7a18d",
+    "url": "https://archive.ics.uci.edu/static/public/151/connectionist+bench+sonar+mines+vs+rocks.zip"
+  }
+]

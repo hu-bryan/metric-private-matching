@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+outputs/
+.cache/
+*.tmp
+src/metric_private_matching/reproduction/data/raw/
+src/metric_private_matching/reproduction/data/sonar/

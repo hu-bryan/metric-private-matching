@@ -1,0 +1,13 @@
+{
+  "confidence": "pointwise Student-t 95%; quick runs are demonstrations, not paper estimates",
+  "experiments": [
+    "benchmarks",
+    "dimension-sweep",
+    "size-sweep",
+    "sonar"
+  ],
+  "inference": "Noise means -> partition means -> chain means (Fashion) -> independent parent means; Sonar uses draws",
+  "rows": 8476,
+  "saved_results": true,
+  "stochastic_experiments_executed": false
+}
