@@ -1,4 +1,4 @@
-include README.md requirements-paper.txt VALIDATION.md
+include README.md LICENSE requirements-paper.txt VALIDATION.md
 recursive-include results *.csv *.json
 recursive-include examples *.py
 recursive-include tests *.py

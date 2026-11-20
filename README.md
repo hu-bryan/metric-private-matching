@@ -287,5 +287,7 @@ release and their limits.
 
 ## License
 
-A project-code license has not yet been selected for this initial publication.
-Dataset terms and attributions are recorded separately in the bundled notices.
+Original project code and documentation are released under the [MIT License](LICENSE).
+Dataset files and third-party notices retain their own terms; the MIT license
+does not override those terms. Dataset attributions and notices are bundled
+under `src/metric_private_matching/reproduction/data/notices/`.
